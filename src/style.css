@@ -3,13 +3,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: system-ui;
+  font-family: "Times New Roman";
 }
 
-button {
+button /*:hover*/ {
   background-color: #09f;
   color: #fff;
+  /*color: #5DC1B9;*/ /*cambia al pasar el cursor sobre la imagen */
+  /*cursor: pointer;*/
   border: 0;
+
   padding: 4px, 7px;
   font-size: 30px;
   cursor: pointer;
